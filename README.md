@@ -7,7 +7,6 @@
 - Simple Button
 - Text Label
 - View Component
-<img src="YOUR_GIF_URL_HERE" width=200><br>
 
 ![](https://res.cloudinary.com/ramjet-it-solution/image/upload/v1661496318/codepath-prework.gif)
 
