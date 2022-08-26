@@ -8,7 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var LabelReference: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -16,7 +17,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var TextLabel: UILabel!
     @IBAction func ButtonClicked(_ sender: Any) {
-        print("Hello")
+        LabelReference.text="👋 Mathias";
     }
 }
 

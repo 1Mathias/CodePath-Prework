@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C78661A628B89E9600262C75 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = C78661A528B89E9600262C75 /* Inject */; };
 		C795E51328B7F5E00020EBC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795E51228B7F5E00020EBC5 /* AppDelegate.swift */; };
 		C795E51528B7F5E00020EBC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795E51428B7F5E00020EBC5 /* SceneDelegate.swift */; };
 		C795E51728B7F5E00020EBC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795E51628B7F5E00020EBC5 /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78661A628B89E9600262C75 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = Prework;
+			packageProductDependencies = (
+				C78661A528B89E9600262C75 /* Inject */,
+			);
 			productName = Prework;
 			productReference = C795E50F28B7F5E00020EBC5 /* Prework.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = C795E50628B7F5DF0020EBC5;
+			packageReferences = (
+				C78661A428B89E9600262C75 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = C795E51028B7F5E00020EBC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +610,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C78661A428B89E9600262C75 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C78661A528B89E9600262C75 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C78661A428B89E9600262C75 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C795E50728B7F5DF0020EBC5 /* Project object */;
 }
