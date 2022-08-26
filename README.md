@@ -9,7 +9,7 @@
 - Text Label
 - View Component
 
-<img src="https://res.cloudinary.com/ramjet-it-solution/image/upload/v1661493698/Codepath-Prework.gif" width=200><br>
+<img src="https://res.cloudinary.com/ramjet-it-solution/image/upload/v1661496318/codepath-prework.gif" width=200><br>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
