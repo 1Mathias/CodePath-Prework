@@ -4,16 +4,12 @@
  Codepath simple ios application for test that I will be upgrading it in the next courses accordingly.
 
 ### App Walk-though
-## Features
+#### Features
 - Simple Button
 - Text Label
 - View Component
 
 <img src="https://res.cloudinary.com/ramjet-it-solution/image/upload/v1661493698/Codepath-Prework.gif" width=200><br>
-
-
-
-
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
