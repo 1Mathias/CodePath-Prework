@@ -4,7 +4,6 @@
  Codepath simple ios application for test that I will be upgrading it in the next courses accordingly.
 
 ### App Walk-though
-## Features
 - Simple Button
 - Text Label
 - View Component
